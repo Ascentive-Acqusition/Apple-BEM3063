@@ -402,7 +402,7 @@ main{max-width:1440px;margin:0 auto;padding:64px 32px 32px}
       <p class="page-header__sub">Each tile traces back to the under-performing-unit narrative: UK Services growth, regional retail productivity dispersion, AI talent compression, the Digital Markets, Competition and Consumers Act, and the CMA Strategic Market Status designation of October 2025.</p>
       <div class="page-header__meta">
         <span><b>Period</b> <span id="reportingPeriod">Trailing 12M to Q2 FY26</span></span>
-        <span><b>Updated</b> <span id="lastUpdated">25 Apr 2026 · 09:42 BST</span></span>
+        <span><b>Updated</b> <span id="lastUpdated">27 Apr 2026 · 09:42 BST</span></span>
         <span><b>Role</b> <span id="roleViewLabel">CEO</span></span>
       </div>
     </header>
@@ -582,7 +582,7 @@ main{max-width:1440px;margin:0 auto;padding:64px 32px 32px}
 
       <div class="ug-callout ug-warn">
         <div class="ug-callout__icon">!</div>
-        <div class="ug-callout__body"><b>Why some tiles look harsher than the headline number suggests.</b> Engagement at 72/100 against a 75 target is mathematically only 4% below: green by the default rule. It is shown as <b>amber</b> because the trend is downward across three consecutive quarters and the retail-floor cohort has fallen to 68. The dashboard prefers to surface a softening signal early rather than mask it inside a band-tolerance that is still nominally green.</div>
+        <div class="ug-callout__body"><b>Why some tiles look harsher than the headline number suggests.</b> Engagement at 72/100 against a 75 target is mathematically only 4% below: green by the default rule. It is shown as <b>amber</b> because the trend is downward across two consecutive quarters and the retail-floor cohort has fallen to 68. The dashboard prefers to surface a softening signal early rather than mask it inside a band-tolerance that is still nominally green.</div>
       </div>
     </section>
 
@@ -686,7 +686,7 @@ main{max-width:1440px;margin:0 auto;padding:64px 32px 32px}
 
       <div class="ug-callout">
         <div class="ug-callout__icon">i</div>
-        <div class="ug-callout__body"><b>Why UK revenue is shown as a two-entity proxy of £4.45bn (FY25).</b> Apple's full UK economic activity is materially larger than the sum of the two UK-incorporated trading entities, but the residual is routed through Apple Distribution International (Ireland) and is not separately disclosed at country level. The two-entity proxy combines Apple Retail UK Ltd at £2.79bn (FY25) and Apple (UK) Ltd at £1.66bn (FY24, latest filed) for a combined £4.45bn. This is the most defensible publicly auditable UK anchor and the figure used throughout the dashboard. The Tile 1 drill-down sheet labels the excluded Distribution International stream explicitly.</div>
+        <div class="ug-callout__body"><b>Why UK revenue is shown as a two-entity proxy of £4.45bn.</b> Apple's full UK economic activity is materially larger than the sum of the two UK-incorporated trading entities, but the residual is routed through Apple Distribution International (Ireland) and is not separately disclosed at country level. The two-entity proxy combines Apple Retail UK Ltd at £2.79bn (FY25 latest filed) and Apple (UK) Ltd at £1.66bn (FY24 latest filed) for a combined £4.45bn. The two entities operate on different fiscal year-ends, so this is a "most recent disclosed turnover" combination rather than a strict same-period sum. It is the most defensible publicly auditable UK anchor and the figure used throughout the dashboard. The Tile 1 drill-down sheet labels the excluded Distribution International stream explicitly.</div>
       </div>
     </section>
 
@@ -705,9 +705,9 @@ main{max-width:1440px;margin:0 auto;padding:64px 32px 32px}
 
       <div class="ug-card">
         <div class="ug-card__h">Workflow B · Diagnosing UK Services under-performance</div>
-        <div class="ug-step"><div class="ug-step__num">1</div><div class="ug-step__body"><div class="ug-step__title">L1, confirm the headline</div><div class="ug-step__text">Tile 3 shows UK Services growing at +6.4% YoY against US Services at +12.1%, a 5.7pp gap.</div></div></div>
+        <div class="ug-step"><div class="ug-step__num">1</div><div class="ug-step__body"><div class="ug-step__title">L1, confirm the headline</div><div class="ug-step__text">Tile 3 shows UK Services growing at +6.4% YoY against US Services at +12.1%, a 5.7pp gap (~£180m gross gap).</div></div></div>
         <div class="ug-step"><div class="ug-step__num">2</div><div class="ug-step__body"><div class="ug-step__title">L2, trace the cause through the Balanced Scorecard</div><div class="ug-step__text">The chevron at the top of L2 names the bottleneck: Internal Processes to Customer. Customer panel shows 2.4× attach-rate dispersion across stores. Learning and Growth panel shows 18.2% sub-12-month-tenure attrition.</div></div></div>
-        <div class="ug-step"><div class="ug-step__num">3</div><div class="ug-step__body"><div class="ug-step__title">L3, quantify the lever</div><div class="ug-step__text">Module 3 (wage and attach simulator): a 2pp Services-attach uplift recovers 0.4pp of operating margin. Module 6 (sandbox): the same uplift adds 90m of FY26 revenue at constant FX.</div></div></div>
+        <div class="ug-step"><div class="ug-step__num">3</div><div class="ug-step__body"><div class="ug-step__title">L3, quantify the recoverable lever</div><div class="ug-step__text">Module 3 (wage and attach simulator): a realistic 2pp Services-attach uplift recovers 0.4pp of operating margin. Module 6 (sandbox): the same uplift adds ~£90m of FY26 revenue at constant FX. The £180m gross gap and £90m recoverable figure are reconcilable: 2pp uplift is a partial closure of the 5.7pp gap, not full closure.</div></div></div>
       </div>
 
       <div class="ug-card">
@@ -754,6 +754,7 @@ main{max-width:1440px;margin:0 auto;padding:64px 32px 32px}
           <tr><td>Leading indicator</td><td>A metric that moves before the headline figure does. The retail-floor cohort engagement at 68 is a leading indicator of the headline 72 falling further.</td></tr>
           <tr><td>RAG</td><td>Red, Amber, Green status indicator. See Section 04 for the threshold rules.</td></tr>
           <tr><td>SLA clock</td><td>Service Level Agreement timer. Begins the moment a critical alert is opened, and tracks against the named owner's resolution commitment.</td></tr>
+          <tr><td>TTM</td><td>Trailing Twelve Months. A rolling 12-month aggregation used in Tile 1 to express the two-entity proxy as a smoothed annual figure across reporting periods.</td></tr>
           <tr><td>Two-entity proxy</td><td>The disclosed-turnover figure built from Apple Retail UK Ltd plus Apple (UK) Ltd, combined £4.45bn. Excludes UK sales routed through Apple Distribution International (Ireland). See Section 09.</td></tr>
         </tbody>
       </table>
@@ -775,7 +776,7 @@ main{max-width:1440px;margin:0 auto;padding:64px 32px 32px}
 </aside>
 
 <footer class="app-foot">
-  <div>Apple UK HR Analytics Dashboard. Final-year individual report (BEM3063 Strategic and HR Analytics).</div>
+  <div>Apple UK HR Analytics Dashboard. Individual report (BEM3063 Strategic and HR Analytics, Assessment 2).</div>
   <div>Sources: Apple 10-K · Companies House 04996702 and 01591116 · Apple UK Gender Pay Gap reports · CMA · DMCC Act 2024 · StatCounter UK · ONS · Business Insider H-1B filings.</div>
 </footer>
 
@@ -786,7 +787,7 @@ main{max-width:1440px;margin:0 auto;padding:64px 32px 32px}
 
 const DATA = {
   meta: {
-    lastUpdatedDisplay: "25 Apr 2026 · 09:42 BST",
+    lastUpdatedDisplay: "27 Apr 2026 · 09:42 BST",
     reportingPeriod: "Trailing 12M to Q2 FY26"
   },
   level1: {
@@ -796,12 +797,12 @@ const DATA = {
       dataClass: "audit",
       value: "£4.45bn", numericValue: 4.45, valuePrefix: "£", valueSuffix: "bn", valueDecimals: 2,
       subValue: "Apple Retail UK + Apple (UK) Ltd · two-entity proxy",
-      delta: "+5.4% YoY", trend: "up", rag: "green",
-      ragRationale: "Combined audited turnover up year-on-year, but excludes Apple Distribution International (Ireland) routing",
-      narrative: "The two-entity proxy combines audited turnover from Apple Retail UK Limited (£2.79bn FY25, growing 8.1% from £2.58bn FY24) and Apple (UK) Limited (£1.66bn FY24, latest filed). Apple's full UK economic activity is materially larger but is routed through Apple Distribution International (Ireland) and not disclosed at country level. The £4.45bn figure is the most defensible publicly auditable UK anchor, not total UK sales.",
-      chart: { type: "sparkline", data: [3.61, 3.78, 3.92, 4.05, 4.18, 4.27, 4.36, 4.45], labels: ["Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26","Q2'26"], unit: "£bn" },
+      delta: "Retail entity +8.1% YoY", trend: "up", rag: "green",
+      ragRationale: "Retail entity grew 8.1% (FY25 vs FY24). Combined proxy excludes Apple Distribution International (Ireland) routing",
+      narrative: "The two-entity proxy combines audited turnover from Apple Retail UK Limited (£2.79bn FY25, growing 8.1% from £2.58bn FY24) and Apple (UK) Limited (£1.66bn FY24, latest filed). The two entities operate on different fiscal year-ends; the £4.45bn is therefore a 'most recent disclosed turnover' combination rather than a strict same-period sum. Apple's full UK economic activity is materially larger but is routed through Apple Distribution International (Ireland) and not disclosed at country level. The £4.45bn figure is the most defensible publicly auditable UK anchor, not total UK sales.",
+      chart: { type: "sparkline", data: [3.61, 3.78, 3.92, 4.05, 4.18, 4.27, 4.36, 4.45], labels: ["TTM Q3'24","TTM Q4'24","TTM Q1'25","TTM Q2'25","TTM Q3'25","TTM Q4'25","TTM Q1'26","TTM Q2'26"], unit: "£bn" },
       source: "Companies House: Apple Retail UK Ltd 04996702 (FY25 filing, 13 Apr 2026) + Apple (UK) Ltd 01591116 (FY24 filing, 4 Jul 2025). Two-entity proxy, not Apple Inc. 10-K UK segment.",
-      kv: [["Apple Retail UK Ltd","£2.79bn FY25 (+8.1%)"],["Apple (UK) Ltd","£1.66bn FY24"],["Combined proxy","£4.45bn"],["YoY growth","+5.4%"],["Excluded","Apple Distribution Int'l (Ireland) UK-routed sales"],["Data class","Publicly auditable"]]
+      kv: [["Apple Retail UK Ltd","£2.79bn FY25 (+8.1%)"],["Apple (UK) Ltd","£1.66bn FY24"],["Combined proxy","£4.45bn"],["Note","Different fiscal year-ends combined"],["Excluded","Apple Distribution Int'l (Ireland) UK-routed sales"],["Data class","Publicly auditable"]]
     },
     /* TILE 2 - VERIFIED iOS share */
     tile2_marketShare: {
@@ -827,7 +828,7 @@ const DATA = {
       narrative: "Reconstructed from Apple Inc. global Services growth (+13% YoY FY24, $96.2bn) and CMA-disclosed UK App Store revenue share (~£420m). The UK-specific figure is illustrative because Apple does not disclose Services by country. Core under-performing-unit signal: UK Services attach rate failing to translate hardware install-base into recurring revenue at the US trajectory.",
       chart: { type: "miniBar", labels: ["UK", "US"], data: [6.4, 12.1], unit: "%" },
       source: "Reconstructed from Apple Inc. 10-K FY24 + CMA SMS evidence on UK App Store revenue share. Illustrative country-level figure.",
-      kv: [["UK YoY (estimated)","+6.4%"],["US YoY (10-K)","+12.1%"],["Gap","−5.7pp"],["Implied lost revenue","~£180m"],["Apple Services share of revenue","~25% (FY24)"],["Source class","Illustrative"]]
+      kv: [["UK YoY (estimated)","+6.4%"],["US YoY (10-K)","+12.1%"],["Gap","−5.7pp"],["Implied lost revenue (full gap)","~£180m"],["Recoverable at 2pp attach uplift","~£90m (Module 6)"],["Apple Services share of revenue","~25% (FY24)"],["Source class","Illustrative"]]
     },
     /* TILE 4 - retail productivity */
     tile4_storeProductivity: {
@@ -849,7 +850,7 @@ const DATA = {
       value: "72", numericValue: 72, valueDecimals: 0,
       subValue: "/ 100 · target 75 · retail floor 68",
       delta: "−1 pt QoQ", trend: "down", rag: "amber",
-      ragRationale: "Within 5% band, but three-quarter downward drift + 68 in retail-floor cohort triggers watch status",
+      ragRationale: "Within 5% band, but two consecutive quarters of decline + 68 in retail-floor cohort triggers watch status",
       narrative: "Composite of internal pulse-survey proxy and Glassdoor UK rating (4.1/5 for Apple UK). No public source for internal engagement; figure is illustrative for dashboard demonstration.",
       chart: { type: "sparkline", data: [70, 71, 72, 74, 75, 74, 73, 72], labels: ["Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26","Q2'26"], unit: "/100" },
       source: "Internal pulse-survey proxy + Glassdoor UK (4.1/5 for Apple UK, Apr 2026). Composite is illustrative.",
@@ -981,7 +982,7 @@ const ROLE_ORDER = {
 const ROLE_EMPHASIS = {
   CFO: {
     tile1_revenue: { label: "UK Audited Turnover · two-entity proxy", subValue: "£4.45bn · auditable, excludes Distribution Int'l routing" },
-    tile3_servicesGrowth: { label: "UK Services growth · margin lever", subValue: "~£180m revenue at risk vs US trajectory" },
+    tile3_servicesGrowth: { label: "UK Services growth · margin lever", subValue: "~£180m gross gap · ~£90m recoverable at 2pp uplift" },
     tile4_storeProductivity: { label: "£m per store", subValue: "£69.8m avg · top-bottom 3.2× spread" },
     tile8_genderPayGap: { label: "Pay equity · disclosure risk", subValue: "Three entities · ranges 5% to 18% median" }
   },
@@ -1454,7 +1455,7 @@ function renderLevel3() {
     <div class="l3-card" id="m1">
       <div class="l3-card__h">Module 1</div>
       <div class="l3-card__title">UK Revenue Forecast</div>
-      <div class="l3-card__sub">Forward forecast of the two-entity proxy turnover. 80% confidence band. Trend plus leading-indicator regression on UK consumer confidence, FX, and prior-period attach rate.</div>
+      <div class="l3-card__sub">Forward forecast of the two-entity proxy turnover (trailing 12-month basis). 80% confidence band. OLS regression on lagged UK consumer confidence, £/$ FX, and prior-period attach rate. R² ≈ 0.71.</div>
       <div class="l3-segs" role="tablist">
         <button class="l3-seg" data-h="3" aria-pressed="false">3 mo</button>
         <button class="l3-seg" data-h="6" aria-pressed="true">6 mo</button>
@@ -1467,14 +1468,14 @@ function renderLevel3() {
       </div>
       <div class="l3-card__chart" id="m1-chart"></div>
       <details class="l3-method"><summary>Methodology and limitations</summary>
-        <p>OLS on 16 quarters of two-entity proxy data, lagged consumer-confidence and £/$ inputs. R² ≈ 0.71. Limitations: structural break risk on Galaxy AI launch and CMA conduct requirements. Correlation is not causation.</p>
+        <p>OLS on 16 quarters of two-entity proxy data (TTM smoothed), lagged consumer-confidence and £/$ inputs. R² ≈ 0.71. Limitations: structural break risk on Galaxy AI launch and CMA conduct requirements. Correlation is not causation.</p>
       </details>
     </div>
 
     <div class="l3-card" id="m2">
       <div class="l3-card__h">Module 2</div>
       <div class="l3-card__title">Attrition Risk Score by Segment</div>
-      <div class="l3-card__sub">Tenure × role matrix. Cell colour reflects predicted 12-month departure probability.</div>
+      <div class="l3-card__sub">Tenure × role matrix. Cell colour reflects predicted 12-month departure probability per cell. Aggregate sub-12-month attrition: 18.2% (Tile 6 cohort drill).</div>
       <div class="l3-card__readout">
         <div class="l3-card__readoutVal">412</div>
         <div class="l3-card__readoutLbl">flagged employees · 6.3% of UK headcount (~6,500)</div>
@@ -1621,7 +1622,7 @@ function wireModule1() {
   const segs = document.querySelectorAll('#m1 .l3-seg');
   const chart = document.getElementById('m1-chart');
   const val = document.getElementById('m1-val'), delta = document.getElementById('m1-delta');
-  // Two-entity proxy history (8 quarters to £4.45bn)
+  // Two-entity proxy history (8 TTM points to £4.45bn)
   const history = [3.61, 3.78, 3.92, 4.05, 4.18, 4.27, 4.36, 4.45];
   function render(h) {
     fanChart(chart, history, 5.4, h);
